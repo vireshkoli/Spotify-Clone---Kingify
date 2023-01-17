@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    background: rgb(125, 14, 14);
+    background: linear-gradient(180deg, rgb(160, 9, 9) 0%, rgba(0, 0, 0, 1) 20%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+.navigation {
+    position: fixed;
+    height: 86vh;
+    width: 15vw;
+    background-color: black;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    flex-direction: column;
+}
+ul {
+    margin-bottom: 40px;
+}
+li {
+    padding: 12px 34px;
+}
+.user {
+    color: white;
+    font-size: 10px;
+    margin-left: 42px;
+}
+.brand img {
+    width: 40px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+.fa-solid {
+    padding: 0 10px;
+}
+.fa-volume-high {
+    margin-left: 0 10px;
+    padding: 0 45px;
+}
+
+.profilename{
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    height: 40px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    left: 1061px;
+    bottom: 1427px;
+    cursor: pointer;
+}
+.profilename img{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.profilename:hover{
+    background-color: #626161;
+}
+
+.info{
+    background-color: #626161;
+    font-size: 7px;
+    width: 160px;
+    height: 160px;
+    display: grid;
+    position: absolute;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    left: 1069px;
+    top: 80px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.infonone{
+    display:none;
+}
+
+.info div{
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.info div:hover{
+    background-color: #8b8888; 
+}
+
+.container {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 1500px;
+    left: 15vw;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.head {
+    background: rgb(103, 9, 9);
+    background: linear-gradient(180deg, rgba(103, 9, 9, 1) 0%, rgba(0, 0, 0, 1) 80%);
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    width: 75vw;
+    height: 25vh;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 20px;
+    flex-direction: row;
+    padding: 20px 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image img {
+    height: 10vw;
+    width: 10vw;
+    margin-left: 1vw;
+    margin-right: 3vw;
+}
+.welcome h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.welcome p {
+    font-size: 20px;
+}
+
+.greets {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 55px;
+}
+
+.sections {
+    font-family: 'Ubuntu', sans-serif;
+    height: 28vh;
+    width: 78vw;
+    display: grid;
+    grid-template-areas: "a a a";
+    grid-auto-rows: 14vh;
+    grid-auto-columns: 25vw;
+    margin: 10px auto;
+    padding: 20px 20px;
+    gap: 15px 20px;
+}
+.sections img {
+    height: 14vh;
+    width: 14vh;
+    padding: 0 0;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.subsection {
+    font-size: 10px;
+    background: #414141;
+    /* background: #2D3436; */
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+.subsection:hover {
+    background: #626161;
+    cursor: pointer;
+}
+
+.play img{
+    height: 8vh;
+    width: 8vh;
+    margin-right: 0;
+    /* visibility: hidden; */
+    display: none;
+    opacity: 0;
+    animation: opacity 0.5s linear;
+}
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{overflow: 1;}
+}
+.subsection:hover .play img{
+    display: block;
+    /* visibility: visible; */
+    opacity: 1; 
+}
+
+.play{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.foryou {
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    left: 56px;
+}
+
+.sections2 {
+    font-family: 'Ubuntu', sans-serif;
+    height: 41vh;
+    width: 78vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px auto;
+    padding: 20px 20px;
+    gap: 0 20px;
+}
+.sections2 img {
+    height: 25vh;
+    width: 25vh;
+    padding: 20px 10px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.subsection2 {
+    font-size: 10px;
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 2px;
+}
+.subsection2:hover{
+    background: #626161;
+}
+.subsection2:hover img{
+    height: 27vh;
+    width: 27vh;
+    padding: 20px 10px 0;
+}
+.content {
+    margin: 0 18px;
+    padding: 10px 0 0 0;
+}
+.content p {
+    color: rgb(144, 141, 141);
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.recent {
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    left: 56px;
+    padding-top: 10px;
+}
+.sections3 {
+    font-family: 'Ubuntu', sans-serif;
+    height: 41vh;
+    width: 78vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px auto;
+    padding: 20px 20px;
+    gap: 0 20px;
+}
+.sections3 img {
+    height: 25vh;
+    width: 25vh;
+    padding: 20px 10px 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.subsection3 {
+    font-size: 10px;
+    background: #1c1c1c;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 2px;
+}
+.sections3 :hover{
+    background: #626161; 
+}
+.sections3 :hover img{
+    height: 27vh;
+    width: 27vh;
+}
+
+.bottom {
+    position: fixed;
+    height: 14vh;
+    width: 100vw;
+    background-color: rgb(31, 29, 29);
+    border-width: 5px;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.icons i {
+    cursor: pointer;
+    margin: 0 10px;
+}
+#myProgressBar {
+    width: 35vw;
+    margin-bottom: -5px;
+}
