@@ -373,21 +373,33 @@ li:hover {
     justify-content: flex-start;
     margin: 0 2px;
 }
+.playsec3{
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 125px;
+    cursor: pointer;
+}
+.playsec3 img{
+    height: 6vh;
+    width: 6vh;
+    opacity: 0;
+    transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
+
+}
+.playsec3 img:hover{
+    height: 7vh;
+    width: 7vh;
+}
 .subsection3:hover{
     background: #626161; 
 }
 .subsection3:hover .imgsec3{
     height: 27vh;
     width: 27vh;
+    padding: 20px 10px 0;
 }
-.playsec3{
-    position: absolute;
-    margin-left: 135px;
-    margin-top: 125px;
-}
-.playsec3 img{
-    height: 6vh;
-    width: 6vh
+.subsection3:hover .playsec3 img{
+    opacity: 1;
 }
 
 .bottom {
