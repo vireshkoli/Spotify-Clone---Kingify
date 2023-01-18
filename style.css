@@ -99,15 +99,22 @@ li:hover {
     left: 1061px;
     bottom: 1427px;
     cursor: pointer;
+    transition: font-size 0.1s linear;
 }
 .profilename img{
     height: 30px;
     width: 30px;
     border-radius: 40px;
     margin-right: 10px;
+    transition: height 0.1s linear, width 0.1s linear;
 }
 .profilename:hover{
     background-color: #626161;
+    font-size: 9px;
+}
+.profilename:hover img{
+    height: 35px;
+    width: 35px;
 }
 
 .info{
