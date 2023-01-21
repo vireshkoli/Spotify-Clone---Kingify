@@ -17,6 +17,7 @@ nav {
     height: 86vh;
     width: 15vw;
 }
+
 .navigation {
     position: fixed;
     height: 86vh;
@@ -27,9 +28,10 @@ nav {
     flex-direction: row;
     top: 0px;
 }
+
 nav ul {
     display: flex;
-    list-style-type:none;
+    list-style-type: none;
     color: white;
     flex-direction: column;
 }
@@ -38,42 +40,52 @@ nav ul {
     width: 40px;
     padding: 0 8px;
 }
+
 .brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
 }
+
 ul {
     font-size: 16px;
     transition: font-size 0.1s linear;
 }
+
 li {
     display: flex;
     align-items: center;
     padding: 12px 34px;
     cursor: pointer;
+    transition: font-size 0.1s linear;
 }
-.ul2{
+
+.ul2 {
     margin-bottom: 40px;
 }
-.ul3{
+
+.ul3 {
     margin-bottom: 20px;
 }
-.ul1 li:hover{
+
+.ul1 li:hover {
     font-size: 22px;
 }
+
 li:hover {
     color: red;
     font-size: 18px;
 }
+
 .user {
     color: white;
     font-size: 10px;
     margin-left: 42px;
     cursor: pointer;
 }
-.user:hover{
+
+.user:hover {
     color: red;
 }
 
@@ -81,12 +93,13 @@ li:hover {
 .fa-solid {
     padding: 0 10px;
 }
+
 .fa-volume-high {
     margin-left: 0 10px;
     padding: 0 45px;
 }
 
-.profilename{
+.profilename {
     display: flex;
     flex-direction: row;
     font-size: 8px;
@@ -103,23 +116,26 @@ li:hover {
     cursor: pointer;
     transition: font-size 0.1s linear;
 }
-.profilename img{
+
+.profilename img {
     height: 30px;
     width: 30px;
     border-radius: 40px;
     margin-right: 10px;
     transition: height 0.1s linear, width 0.1s linear;
 }
-.profilename:hover{
+
+.profilename:hover {
     background-color: #626161;
     font-size: 9px;
 }
-.profilename:hover img{
+
+.profilename:hover img {
     height: 35px;
     width: 35px;
 }
 
-.info{
+.info {
     background-color: #626161;
     font-size: 7px;
     width: 160px;
@@ -132,23 +148,24 @@ li:hover {
     border-radius: 3px;
     cursor: pointer;
 }
-.infonone{
-    display:none;
+
+.infonone {
+    display: none;
 }
 
-.info div{
+.info div {
     cursor: pointer;
     color: white;
     padding-left: 10px;
-    height: 40px; 
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
 }
 
-.info div:hover{
-    background-color: #8b8888; 
+.info div:hover {
+    background-color: #8b8888;
 }
 
 .container {
@@ -161,7 +178,7 @@ li:hover {
     left: 15vw;
     margin: 0 0;
     padding: 0 0;
-    display: none;
+    /* display: none; */
 }
 
 .head {
@@ -187,10 +204,12 @@ li:hover {
     margin-left: 1vw;
     margin-right: 3vw;
 }
+
 .welcome h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
+
 .welcome p {
     font-size: 20px;
 }
@@ -216,6 +235,7 @@ li:hover {
     padding: 20px 20px;
     gap: 15px 20px;
 }
+
 .sections img {
     height: 14vh;
     width: 14vh;
@@ -223,6 +243,7 @@ li:hover {
     margin-right: 20px;
     border-radius: 5px;
 }
+
 .subsection {
     font-size: 10px;
     background: #414141;
@@ -241,7 +262,7 @@ li:hover {
     font-size: 11px;
 }
 
-.play img{
+.play img {
     height: 8vh;
     width: 8vh;
     /* display: none; */
@@ -250,17 +271,18 @@ li:hover {
     transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
 }
 
-.subsection:hover .play img{
+.subsection:hover .play img {
     /* display: block; */
     /* visibility: visible; */
-    opacity: 1; 
+    opacity: 1;
 }
-.play img:hover{
+
+.play img:hover {
     height: 9vh;
     width: 9vh;
 }
 
-.play{
+.play {
     display: flex;
     align-items: center;
     height: 40px;
@@ -289,6 +311,7 @@ li:hover {
     padding: 20px 20px;
     gap: 0 20px;
 }
+
 .sections2 img {
     height: 25vh;
     width: 25vh;
@@ -308,38 +331,46 @@ li:hover {
     justify-content: flex-start;
     margin: 0 2px;
 }
-.playsec2{
+
+.playsec2 {
     position: absolute;
     margin-left: 135px;
     margin-top: 125px;
     cursor: pointer;
 }
-.playsec2 img{
+
+.playsec2 img {
     height: 6vh;
     width: 6vh;
     opacity: 0;
     transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
 
 }
-.playsec2 img:hover{
+
+.playsec2 img:hover {
     height: 7vh;
     width: 7vh;
 }
-.subsection2:hover{
+
+.subsection2:hover {
     background: #626161;
 }
-.subsection2:hover .imgsec2{
+
+.subsection2:hover .imgsec2 {
     height: 27vh;
     width: 27vh;
     padding: 20px 10px 0;
 }
-.subsection2:hover .playsec2 img{
+
+.subsection2:hover .playsec2 img {
     opacity: 1;
 }
+
 .content {
     margin: 0 18px;
     padding: 10px 0 0 0;
 }
+
 .content p {
     color: rgb(144, 141, 141);
     font-size: 15px;
@@ -355,6 +386,7 @@ li:hover {
     left: 56px;
     padding-top: 10px;
 }
+
 .sections3 {
     font-family: 'Ubuntu', sans-serif;
     height: 41vh;
@@ -365,6 +397,7 @@ li:hover {
     padding: 20px 20px;
     gap: 0 20px;
 }
+
 .sections3 img {
     height: 25vh;
     width: 25vh;
@@ -373,6 +406,7 @@ li:hover {
     border-radius: 5px;
     transition: height 0.1s linear, width 0.1s linear;
 }
+
 .subsection3 {
     font-size: 10px;
     background: #1c1c1c;
@@ -383,32 +417,38 @@ li:hover {
     justify-content: flex-start;
     margin: 0 2px;
 }
-.playsec3{
+
+.playsec3 {
     position: absolute;
     margin-left: 135px;
     margin-top: 125px;
     cursor: pointer;
 }
-.playsec3 img{
+
+.playsec3 img {
     height: 6vh;
     width: 6vh;
     opacity: 0;
     transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
 
 }
-.playsec3 img:hover{
+
+.playsec3 img:hover {
     height: 7vh;
     width: 7vh;
 }
-.subsection3:hover{
-    background: #626161; 
+
+.subsection3:hover {
+    background: #626161;
 }
-.subsection3:hover .imgsec3{
+
+.subsection3:hover .imgsec3 {
     height: 27vh;
     width: 27vh;
     padding: 20px 10px 0;
 }
-.subsection3:hover .playsec3 img{
+
+.subsection3:hover .playsec3 img {
     opacity: 1;
 }
 
@@ -422,9 +462,10 @@ li:hover {
     left: 15vw;
     margin: 0 0;
     padding: 0 0;
-    /* display: none; */
+    display: none;
 }
-.container_search{
+
+.container_search {
     font-family: 'Ubuntu', sans-serif;
     background-color: black;
     position: fixed;
@@ -433,10 +474,12 @@ li:hover {
     width: 85vw;
     height: 13vh;
 }
-.profilename2{
+
+.profile2 {
     bottom: 30px;
 }
-.recentsearch{
+
+.recentsearch {
     color: white;
     font-size: 15px;
     display: inline-block;
@@ -445,7 +488,8 @@ li:hover {
     left: 55px;
     margin-top: 120px;
 }
-.previous{
+
+.previous {
     background-color: #1c1c1c;
     color: white;
     height: 40px;
@@ -458,17 +502,20 @@ li:hover {
     justify-content: center;
     border-radius: 40px;
 }
-.previousicon{
+
+.previousicon {
     /* display: flex;
     position: relative;
     top: 19px;
     height: 5.5vh; */
     cursor: pointer;
 }
-.previous:hover{
+
+.previous:hover {
     background-color: rgb(75, 73, 73);
 }
-.searchicon{
+
+.searchicon {
     color: rgb(98, 94, 94);
     display: flex;
     position: relative;
@@ -478,7 +525,8 @@ li:hover {
     border-radius: 20px;
     cursor: pointer;
 }
-.search{
+
+.search {
     display: flex;
     padding: 10px;
     margin: 10px;
@@ -488,7 +536,8 @@ li:hover {
     height: 7vh;
     width: 30vw;
 }
-.search input{
+
+.search input {
     font-family: 'Ubuntu', sans-serif;
     height: 5.5vh;
     width: 24vw;
@@ -497,9 +546,11 @@ li:hover {
     font-size: 15px;
     text-indent: 40px;
 }
-.searchicon:hover{
+
+.searchicon:hover {
     color: black;
 }
+
 .recentsections {
     font-family: 'Ubuntu', sans-serif;
     height: 41vh;
@@ -510,6 +561,7 @@ li:hover {
     padding: 20px 20px;
     gap: 0 20px;
 }
+
 .recentsections img {
     height: 25vh;
     width: 25vh;
@@ -529,43 +581,52 @@ li:hover {
     justify-content: flex-start;
     margin: 0 2px;
 }
-.playsec4{
+
+.playsec4 {
     position: absolute;
     margin-left: 135px;
     margin-top: 125px;
     cursor: pointer;
 }
-.playsec4 img{
+
+.playsec4 img {
     height: 6vh;
     width: 6vh;
     opacity: 0;
     transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
 }
-.playsec4 img:hover{
+
+.playsec4 img:hover {
     height: 7vh;
     width: 7vh;
 }
-.subsection4:hover{
+
+.subsection4:hover {
     background: #626161;
 }
-.subsection4:hover .imgsec4{
+
+.subsection4:hover .imgsec4 {
     height: 27vh;
     width: 27vh;
     padding: 20px 10px 0;
 }
-.subsection4:hover .playsec4 img{
+
+.subsection4:hover .playsec4 img {
     opacity: 1;
 }
+
 .content {
     margin: 0 18px;
     padding: 10px 0 0 0;
 }
+
 .content p {
     color: rgb(144, 141, 141);
     font-size: 15px;
     padding: 5px 0;
 }
-.browseall{
+
+.browseall {
     color: white;
     font-size: 15px;
     display: inline-block;
@@ -574,7 +635,8 @@ li:hover {
     left: 55px;
     margin-top: 10px;
 }
-.browsesections{
+
+.browsesections {
     height: 28vh;
     width: 78vw;
     display: grid;
@@ -583,40 +645,112 @@ li:hover {
     padding: 20px 20px;
     gap: 30px 0;
 }
-.browsesections img{
+
+.browsesections img {
     height: 28vh;
     width: 28vh;
     padding: 0 0;
     border-radius: 10px;
 }
-.subsection5{
+
+.subsection5 {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 27vh;
 }
-.playsec5{
+
+.playsec5 {
     position: absolute;
     margin-left: 135px;
     margin-top: 125px;
     cursor: pointer;
 }
-.playsec5 img{
+
+.playsec5 img {
     height: 6vh;
     width: 6vh;
     opacity: 0;
     transition: opacity 0.2s linear, height 0.1s linear, width 0.1s linear;
 }
-.playsec5 img:hover{
+
+.playsec5 img:hover {
     height: 7vh;
     width: 7vh;
 }
-.subsection5:hover .imgsec5{
+
+.subsection5:hover .imgsec5 {
     height: 27vh;
     width: 27vh;
 }
-.subsection5:hover .playsec5 img{
+
+.subsection5:hover .playsec5 img {
     opacity: 1;
+}
+
+.redkingv {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 1600px;
+    left: 15vw;
+    margin: 0 0;
+    padding: 0 0;
+    display: none;
+}
+
+.playlist1 {
+    background: rgb(16, 11, 84);
+    background: linear-gradient(90deg, rgba(16, 11, 84, 1) 42%, rgba(22, 22, 133, 1) 100%);
+    color: white;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+
+.playlist1 img {
+    height: 33vh;
+    margin-right: 30px;
+}
+.playcontent1{
+    margin-top: 88px;
+    /* position: relative;
+    top: 45px; */
+}
+.playcontent1 h1 {
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.playcontent1 img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 3px;
+    left: 27px;
+    height: 25px;
+    width: 25px;
+}
+
+#playinfo1 {
+    display: flex;
+    position: relative;
+    right: 26px;
+}
+
+.profile3 {
+    left: 1061px;
+    bottom: 1530px;
+}
+
+.info3 {
+    left: 1066px;
+    top: 80px;
 }
 
 
@@ -633,14 +767,17 @@ li:hover {
     align-items: center;
     flex-direction: column;
 }
+
 .icons {
     margin-bottom: 10px;
     margin-left: 5px;
 }
+
 .icons i {
     cursor: pointer;
     margin: 0 10px;
 }
+
 #myProgressBar {
     width: 35vw;
     margin-bottom: -5px;
