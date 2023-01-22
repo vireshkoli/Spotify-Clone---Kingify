@@ -1,18 +1,32 @@
-let proname = document.getElementById("proname");
-let information = document.getElementById("information")
-let proname2 = document.getElementById("proname2");
-let information2 = document.getElementById("information2")
-let proname3 = document.getElementById("proname3");
-let information3 = document.getElementById("information3")
+let profile1 = document.getElementsByClassName("profile1");
+let info1 = document.getElementsByClassName("info1")
+let profile2 = document.getElementsByClassName("profile2");
+let info2 = document.getElementsByClassName("info2")
+let profile3 = document.getElementsByClassName("profile3");
+let info3 = document.getElementsByClassName("info3")
 
 function profile(){
-    information.classList.toggle("infonone");
-    information2.classList.toggle("infonone");
-    information3.classList.toggle("infonone");
+    info1[0].classList.toggle("infonone")
+
+    info2[0].classList.toggle("infonone")
+
+    info3[0].classList.toggle("infonone");
+    info3[1].classList.toggle("infonone");
+    info3[2].classList.toggle("infonone");
+    info3[3].classList.toggle("infonone");
+    info3[4].classList.toggle("infonone");
+    info3[5].classList.toggle("infonone");
 }
-proname.addEventListener('click', profile);
-proname2.addEventListener('click', profile);
-proname3.addEventListener('click', profile);
+profile1[0].addEventListener('click', profile);
+
+profile2[0].addEventListener('click', profile);
+
+profile3[0].addEventListener('click', profile);
+profile3[1].addEventListener('click', profile);
+profile3[2].addEventListener('click', profile);
+profile3[3].addEventListener('click', profile);
+profile3[4].addEventListener('click', profile);
+profile3[5].addEventListener('click', profile);
 
 
 let head = document.getElementById("head");
@@ -83,27 +97,75 @@ let search = document.getElementsByClassName("container2");
 let homebtn = document.getElementsByClassName("li1");
 let searchbtn = document.getElementsByClassName("li2");
 let librarybtn = document.getElementsByClassName("li3");
-let redkingv = document.getElementsByClassName("redkingv");
+let playlists1 = document.getElementsByClassName("playlists1");
+let playlists2 = document.getElementsByClassName("playlists2");
+let playlists3 = document.getElementsByClassName("playlists3");
+let playlists4 = document.getElementsByClassName("playlists4");
+let playlists5 = document.getElementsByClassName("playlists5");
+let playlists6 = document.getElementsByClassName("playlists6");
+
 
 function searchpage(){
     home[0].style.display = "none";
     search[0].style.display = "block";
-    redkingv[0].style.display = "none"
+    playlists1[0].style.display = "none"
+    playlists2[0].style.display = "none"
+    playlists3[0].style.display = "none"
+    playlists4[0].style.display = "none"
+    playlists5[0].style.display = "none"
+    playlists6[0].style.display = "none"
+
 }
 searchbtn[0].addEventListener("click", searchpage);
 
 function homepage(){
     home[0].style.display = "block";
     search[0].style.display = "none";
-    redkingv[0].style.display = "none"
+    playlists1[0].style.display = "none"
+    playlists2[0].style.display = "none"
+    playlists3[0].style.display = "none"
+    playlists4[0].style.display = "none"
+    playlists5[0].style.display = "none"
+    playlists6[0].style.display = "none"
 }
 homebtn[0].addEventListener("click", homepage);
 
 
 let subsection = document.getElementsByClassName("subsection")
 let subsection1 = subsection[0]
+let subsection2 = subsection[1]
+let subsection3 = subsection[2]
+let subsection4 = subsection[3]
+let subsection5 = subsection[4]
+let subsection6 = subsection[5]
+
 function playredkingv(){
     home[0].style.display = "none";
-    redkingv[0].style.display = "block";
+    playlists1[0].style.display = "block";
+}
+function playgymmusic(){
+    home[0].style.display = "none";
+    playlists2[0].style.display = "block";
+}
+function playlatestsongs(){
+    home[0].style.display = "none";
+    playlists3[0].style.display = "block";
+}
+function playhiphopmusic(){
+    home[0].style.display = "none";
+    playlists4[0].style.display = "block";
+}
+function playarjitsingh(){
+    home[0].style.display = "none";
+    playlists5[0].style.display = "block";
+}
+function playglobalhits(){
+    home[0].style.display = "none";
+    playlists6[0].style.display = "block";
 }
 subsection1.addEventListener("click", playredkingv);
+subsection2.addEventListener("click", playgymmusic);
+subsection3.addEventListener("click", playlatestsongs);
+subsection4.addEventListener("click", playhiphopmusic);
+subsection5.addEventListener("click", playarjitsingh);
+subsection6.addEventListener("click", playglobalhits);
