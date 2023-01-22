@@ -893,3 +893,58 @@ background: linear-gradient(90deg, rgba(73,27,6,1) 42%, rgba(111,61,18,1) 100%);
     width: 35vw;
     margin-bottom: -5px;
 }
+
+.current{
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 8vh;
+    width: 22vw;
+    left: 20px;
+    bottom: 25px;
+    justify-content: flex-start;
+}
+.current img{
+    margin-right: 10px;
+}
+.currentinfo{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 11px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.currentinfo h1{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.currentinfo p{
+    color: rgb(176, 172, 172);
+    font-size: 12px;
+}
+.like{
+    display: flex;
+    position: relative;
+    height: 10px;
+    top: 25px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.like .likecolor{
+    height: 10px;
+    color: rgb(43, 190, 43);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.like .liketransp{
+    height: 10px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+

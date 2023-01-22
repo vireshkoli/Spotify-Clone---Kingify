@@ -169,3 +169,13 @@ subsection3.addEventListener("click", playlatestsongs);
 subsection4.addEventListener("click", playhiphopmusic);
 subsection5.addEventListener("click", playarjitsingh);
 subsection6.addEventListener("click", playglobalhits);
+
+
+
+let currentlike = document.getElementsByClassName("like");
+let likebtn = document.getElementsByClassName("fa-heart");
+
+function like(){
+    likebtn[1].classList.toggle("liketransp")
+}
+currentlike[0].addEventListener("click", like);
