@@ -119,7 +119,7 @@ function searchpage(){
 searchbtn[0].addEventListener("click", searchpage);
 
 function homepage(){
-    home[0].style.display = "block";
+    home[0].style.display = "inline-block";
     search[0].style.display = "none";
     playlists1[0].style.display = "none"
     playlists2[0].style.display = "none"

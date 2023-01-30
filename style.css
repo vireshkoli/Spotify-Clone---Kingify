@@ -880,18 +880,20 @@ background: linear-gradient(90deg, rgba(73,27,6,1) 42%, rgba(111,61,18,1) 100%);
 }
 
 .icons {
-    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    bottom: 12px;
     margin-left: 5px;
 }
 
 .icons i {
     cursor: pointer;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 #myProgressBar {
     width: 35vw;
-    margin-bottom: -5px;
+    margin-top: 10px;
 }
 
 .current{
@@ -947,4 +949,63 @@ background: linear-gradient(90deg, rgba(73,27,6,1) 42%, rgba(111,61,18,1) 100%);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
+
+.rightbottom{
+    /* color: green; */
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 1200px;
+    bottom: 28px;
+    height: 8vh;
+    width: 22vw;
+    justify-content: flex-start;
+}
+.rbsection{
+    color: rgb(175, 173, 173);
+    display: flex;
+    position: relative;
+    height: 10px;
+    top: 25px;
+    left: 10px;
+    cursor: pointer;
+}
+.rbsection:hover{
+    color: white;
+}
+.volume{
+    color: rgb(175, 173, 173);
+    display: flex;
+    position: relative;
+    height: 10px;
+    top: 30px;
+    left: 13px;
+    cursor: pointer;
+}
+.volume:hover{
+    color: white;
+}
+input[type="range"]{
+    /* appearance: none; */
+    cursor: pointer;
+    background: #43e5f7;
+    height: 4px;
+}
+
+/* input[type="range"]:hover{
+   background: greenyellow; 
+} */
+.screensize{
+    color: rgb(175, 173, 173);
+    display: flex;
+    position: relative;
+    height: 10px;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+.screensize:hover{
+    color: white;
+}
+
 
